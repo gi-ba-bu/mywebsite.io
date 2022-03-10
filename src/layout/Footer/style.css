@@ -2,6 +2,7 @@
     width: 100vw;
     position: fixed;
     bottom: 0;
-    background-color: grey;
+    background-color: black;
+    color: gold;
     padding: 20px;
 }
