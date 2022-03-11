@@ -21,6 +21,14 @@ h1 {
     text-align: center;
 }
 
+h2 { 
+    grid-area: hd;
+    font-family: 'Londrina Sketch', cursive;
+    font-size: 5rem;
+    width: 100vw;
+    text-align: center;
+}
+
 aside { grid-area: as; }
 
 section { grid-area: st; }
