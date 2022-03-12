@@ -4,10 +4,14 @@ import './style.css';
 
 const Footer = () => {
 
+    // <img id = "footerimages" style={{ height: "27px", width: "27px", marginBottom: "-9px"  }} src="../../images/reacticon.svg" alt="react" /> 
+
+
 return(
     <div id="footer">  
         <span> &copy; Giacomo Baldo 2022. </span> 
-        <span> Built with <img id = "footerimages"style={{ height: "50px", width: "50px" }} src="../../images/reacticon.svg" alt="Sunrise" /> React, CSS and JSX. Deployed with Netlify. </span> 
+        <span> Built with React, CSS and JSX. </span>
+        <span> Deployed with Netlify. </span> 
     </div>
 )}
 

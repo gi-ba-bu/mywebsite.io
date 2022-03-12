@@ -7,9 +7,9 @@ import './style.css'
 const Header = () => {
     return (
         <nav>
-            <NavLink exact to="/" activeClassName="current">Home</NavLink>
-            <NavLink to="/about" activeClassName="current">About</NavLink>
-            <NavLink to="/news" activeClassName="current">Projects +</NavLink>
+            <NavLink exact to="/" className="navlink" activeClassName="current">About</NavLink>
+            {/* <NavLink to="/about" activeClassName="current">About</NavLink> */}
+            <NavLink to="/projects" className="navlink" activeClassName="current">Projects +</NavLink>
             {/* <BackButton /> */}
         </nav>
     );
