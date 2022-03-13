@@ -7,10 +7,12 @@ nav {
     display: flex;
     justify-content: space-around;
     color: gold;
+    position:fixed;
+    top:0;
 }
 
 a { width: 50vw;
-    padding: 20px;
+    padding: 15px;
     text-align: center;
     text-decoration: none;
     color: gold;

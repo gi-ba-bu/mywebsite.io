@@ -13,7 +13,7 @@ console.log(number)
 return(
 <div className='aboutme'>
 
-<div className='spacing-a-bit'>  </div>
+<div className='spacing-a-bit-top'>  </div>
 
       <div className='bio-set-length'>
         <div className='bio-length'><span>shortest bio</span> <span>longest bio</span></div>
@@ -34,6 +34,7 @@ return(
 
 
     </div>
+<div className='spacing-a-bit-bottom'>  </div>
 </div>
 )
 };

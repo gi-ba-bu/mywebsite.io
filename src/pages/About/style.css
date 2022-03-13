@@ -7,6 +7,7 @@
     align-items: center;
     font-size: 17px;
     font-weight: 600;
+    min-height: 520px;
     
 }
 
@@ -19,9 +20,22 @@ p.bullet:before {
     content:"• ";
 }
 
+div.spacing-a-bit-top{
+    height: 61px;
+    margin: 0;
+    border:0;
+    padding:0;
+}
+div.spacing-a-bit-bottom{
+    height: 122px;
+    margin: 0;
+    border:0;
+    padding:0;
+}
+
 div.bio-set-length{
     margin: 0;
-    margin-top:5vw;
+    margin-top: 5vw;
     margin-bottom: 3vw;
     border:0;
     padding:0;
