@@ -1,6 +1,7 @@
 import React from 'react';
 
 import { Switch, Route} from 'react-router-dom';
+import './style.css'
 
 const Projects = () => {
   // const history = useHistory();
@@ -31,10 +32,11 @@ const Projects = () => {
       <section>
         <Switch>
             <Route exact path={"/projects"}>
-            {/* <h1> This is the news page  </h1> */}
-            <h2>Work in progress. Come back soon.</h2>
-            {/* <Headlines />   */}
+            <div className='spacing-a-bit-top' ></div>
+            <p  className='title-projects'>Work in progress. Come back soon.</p>
+        
               {/* <Headlines handleSelect={loadFeaturedStory}/> */}
+            <div className='spacing-a-bit-bottom' ></div>
             </Route>
             
             {/* Dynamic route params */}

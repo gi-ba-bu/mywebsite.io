@@ -1,0 +1,18 @@
+div.spacing-a-bit-top{
+    height: 61px;
+    margin: 0;
+    border:0;
+    padding:0;
+}
+div.spacing-a-bit-bottom{
+    height: 122px;
+    margin: 0;
+    border:0;
+    padding:0;
+}
+
+p.title-projects{
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
