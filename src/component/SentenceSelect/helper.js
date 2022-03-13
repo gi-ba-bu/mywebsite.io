@@ -1,7 +1,7 @@
 
 const Bios = [
      "Hello, my name is Giacomo. I'm trying my very best. ",
-     "I am currently training as a full-stack web developer with Futureproof. That's how I learnt to build websites (such as this!). ",
+     "I am currently training as a full-stack web developer with Futureproof. That's how I learnt to build websites (such as this one!). ",
 
      "I earned a PhD in Applied Mathematics from the University of Leeds. In my research, I worked on analytical modelling of complex systems. ",
      "During this time, I enjoyed presenting my work at international conferences. ",
