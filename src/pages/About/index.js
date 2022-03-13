@@ -13,9 +13,10 @@ console.log(number)
 return(
 <div className='aboutme'>
 
-<h3> bio </h3>
+<div className='spacing-a-bit'>  </div>
 
-      <div >
+      <div className='bio-set-length'>
+        <div className='bio-length'><span>shortest bio</span> <span>longest bio</span></div>
         <input className='radio-buttons' type="radio" value="Shortest" name="length" onChange={ () => setNumber(0)} checked = {number === 0} /> 
         <input type="radio" value="Medium" name="length" onChange={ () => setNumber(1)} checked = {number === 1}/> 
         <input type="radio" value="Longest" name="length" onChange={ () => setNumber(2)} checked = {number === 2}/> 
@@ -23,7 +24,7 @@ return(
         <input type="radio" value="Longest" name="length" onChange={ () => setNumber(4)} checked = {number === 4}/> 
         <input type="radio" value="Longest" name="length" onChange={ () => setNumber(5)} checked = {number === 5}/> 
         <input type="radio" value="Longest" name="length" onChange={ () => setNumber(6)} checked = {number === 6}/> 
-        <input type="radio" value="Longest" name="length" onChange={ () => setNumber(7)} checked = {number === 7}/> 
+        {/* <input type="radio" value="Longest" name="length" onChange={ () => setNumber(7)} checked = {number === 7}/>  */}
       </div>
 
     <div className='paboutme' >

@@ -1,7 +1,7 @@
 
 const Bios = [
      "Hello, my name is Giacomo. I'm trying my very best. ",
-     "I am currently training as a full stack web developer with FutureProof. That's how I learnt to build this website. ",
+     "I am currently training as a full-stack web developer with FutureProof. That's how I learnt to build this website. ",
 
      "I earned a PhD in Applied Mathematics from the University of Leeds. In my research, I worked on analytical modelling of complex systems. ",
      "During this time, I enjoyed presenting my work at international conferences. ",
@@ -9,7 +9,7 @@ const Bios = [
      "I have hands-on experience with data science and machine learning projects. ",
      "Here, I focused on applications to the food retail industry.",
 
-     "I am a qualified secondary school maths teacher in the UK and taught mathematics in state schools."
+     "I am also a qualified secondary-school maths teacher in the UK and taught mathematics in state schools."
 
     ]
 
