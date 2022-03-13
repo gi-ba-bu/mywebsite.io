@@ -26,16 +26,14 @@ li { list-style: none; }
 
 li:hover { cursor: pointer; }
 
-img {
-    /* height: 60vh; */
-    width: 30vw;
-    margin: 2rem;
-    border: 10px solid black;
-}
-
 #feature {
     padding: 2rem 10vw;
     text-align: justify;
 }
 
-h3 {font-size: 2rem; }
+h3 { 
+    font-family: 'Londrina Sketch', cursive;
+    font-size: 3rem;
+    width: 100vw;
+    text-align: center;
+}

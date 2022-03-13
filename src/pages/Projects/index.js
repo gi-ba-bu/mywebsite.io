@@ -1,6 +1,7 @@
 import React from 'react';
 
 import { Switch, Route} from 'react-router-dom';
+import { Card } from '../../component'
 import './style.css'
 
 const Projects = () => {
@@ -29,14 +30,23 @@ const Projects = () => {
 
       </aside> */}
 
-      <section>
+ 
         <Switch>
             <Route exact path={"/projects"}>
+            <div>
             <div className='spacing-a-bit-top' ></div>
-            <p  className='title-projects'>Work in progress. Come back soon.</p>
-        
-              {/* <Headlines handleSelect={loadFeaturedStory}/> */}
+            <h3 >Work in progress. Come back soon.</h3>
+            <div className='cards-container'>
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+            </div>
             <div className='spacing-a-bit-bottom' ></div>
+            </div>
             </Route>
             
             {/* Dynamic route params */}
@@ -47,7 +57,7 @@ const Projects = () => {
 
             </Route>
         </Switch>
-      </section>
+
 
     </div>
   );
