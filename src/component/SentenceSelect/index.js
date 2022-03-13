@@ -33,7 +33,6 @@ const SentenceSelect = (prop) => {
             <p> {parTwo} </p>
             <p> {parThree} </p>
             <p> {parFour} </p> 
-            
         </>
     );
 }

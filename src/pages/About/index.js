@@ -6,7 +6,7 @@ import { SentenceSelect } from '../../component';
 const About = () => {
 
 
-const [number, setNumber] = useState(0)
+const [number, setNumber] = useState(1)
 console.log(number)
 
 
@@ -16,8 +16,9 @@ return(
 <div className='spacing-a-bit-top'>  </div>
 
       <div className='bio-set-length'>
-        <div className='bio-length'><span>shortest bio</span> <span>longest bio</span></div>
-        <input className='radio-buttons' type="radio" value="Shortest" name="length" onChange={ () => setNumber(0)} checked = {number === 0} /> 
+        <div className='bio-length'><span>adjust bio length:</span></div>
+        <div className='input-spacing'>
+        <input type="radio" value="Shortest" name="length" onChange={ () => setNumber(0)} checked = {number === 0} /> 
         <input type="radio" value="Medium" name="length" onChange={ () => setNumber(1)} checked = {number === 1}/> 
         <input type="radio" value="Longest" name="length" onChange={ () => setNumber(2)} checked = {number === 2}/> 
         <input type="radio" value="Longest" name="length" onChange={ () => setNumber(3)} checked = {number === 3}/> 
@@ -25,6 +26,8 @@ return(
         <input type="radio" value="Longest" name="length" onChange={ () => setNumber(5)} checked = {number === 5}/> 
         <input type="radio" value="Longest" name="length" onChange={ () => setNumber(6)} checked = {number === 6}/> 
         {/* <input type="radio" value="Longest" name="length" onChange={ () => setNumber(7)} checked = {number === 7}/>  */}
+        </div>
+        <div className='bio-length'><span>shortest</span> <span>longest</span></div>
       </div>
 
     <div className='paboutme' >
