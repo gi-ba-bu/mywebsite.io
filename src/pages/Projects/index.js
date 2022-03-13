@@ -30,15 +30,15 @@ const Projects = () => {
 
       <section>
         <Switch>
-            <Route exact path={"/news"}>
+            <Route exact path={"/projects"}>
             {/* <h1> This is the news page  </h1> */}
-            <>Hello news</>
+            <h2>Work in progress. Come back soon.</h2>
             {/* <Headlines />   */}
               {/* <Headlines handleSelect={loadFeaturedStory}/> */}
             </Route>
             
             {/* Dynamic route params */}
-            <Route path={"/news/:id"}>
+            <Route path={"/projects/:id"}>
             <>Hello news id</>
             {/* <Songs /> */}
             {/* <NewsPost /> */}

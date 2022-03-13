@@ -16,11 +16,14 @@ return(
 <h3> bio </h3>
 
       <div >
-        <input className='radio-buttons' type="radio" value="Shortest" name="length" onChange={ () => setNumber(0)} checked = {number === 0 && true} /> 
-        <input type="radio" value="Medium" name="length" onChange={ () => setNumber(1)} checked = {number === 1 && true}/> 
-        <input type="radio" value="Longest" name="length" onChange={ () => setNumber(2)} checked = {number === 2 && true}/> 
-        <input type="radio" value="Longest" name="length" onChange={ () => setNumber(3)} checked = {number === 3 && true}/> 
-        <input type="radio" value="Longest" name="length" onChange={ () => setNumber(4)} checked = {number === 4 && true}/> 
+        <input className='radio-buttons' type="radio" value="Shortest" name="length" onChange={ () => setNumber(0)} checked = {number === 0} /> 
+        <input type="radio" value="Medium" name="length" onChange={ () => setNumber(1)} checked = {number === 1}/> 
+        <input type="radio" value="Longest" name="length" onChange={ () => setNumber(2)} checked = {number === 2}/> 
+        <input type="radio" value="Longest" name="length" onChange={ () => setNumber(3)} checked = {number === 3}/> 
+        <input type="radio" value="Longest" name="length" onChange={ () => setNumber(4)} checked = {number === 4}/> 
+        <input type="radio" value="Longest" name="length" onChange={ () => setNumber(5)} checked = {number === 5}/> 
+        <input type="radio" value="Longest" name="length" onChange={ () => setNumber(6)} checked = {number === 6}/> 
+        <input type="radio" value="Longest" name="length" onChange={ () => setNumber(7)} checked = {number === 7}/> 
       </div>
 
     <div className='paboutme' >
