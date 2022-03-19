@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import { Linking, Text } from 'react-native-web';
+import { Scrollbars } from 'react-custom-scrollbars-2';
 import './style.css'
 import { SentenceSelect } from '../../component';
 
@@ -11,6 +11,13 @@ console.log(number)
 
 
 return(
+<Scrollbars style={{ width: "100vw", height: "100vh" }}
+// This will activate auto hide
+autoHide
+// Hide delay in ms
+autoHideTimeout={1000}
+// Duration for hide animation in ms.
+autoHideDuration={200}>
 <div className='aboutme'>
 
 <div className='spacing-a-bit-top'>  </div>
@@ -39,6 +46,7 @@ return(
     </div>
 <div className='spacing-a-bit-bottom'>  </div>
 </div>
+</Scrollbars>
 )
 };
 
