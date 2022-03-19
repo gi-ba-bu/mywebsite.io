@@ -1,39 +1,42 @@
-@import url('https://fonts.googleapis.com/css2?family=Londrina+Sketch&family=News+Cycle&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Londrina+Sketch&family=News+Cycle&display=swap");
 /* font-family: 'Londrina Sketch', cursive;
 font-family: 'News Cycle', sans-serif; */
 
-html{
-    background-color: white;
+html {
+  background-color: white;
 }
 
-
-h1 { 
-    font-family: 'Londrina Sketch', cursive;
-    font-size: 10rem;
-    width: 100vw;
-    text-align: center;
+h1 {
+  font-family: "Londrina Sketch", cursive;
+  font-size: 10rem;
+  width: 100vw;
+  text-align: center;
 }
 
-h2 { 
-    font-family: 'Londrina Sketch', cursive;
-    font-size: 5rem;
-    width: 100vw;
-    text-align: center;
+h2 {
+  font-family: "Londrina Sketch", cursive;
+  font-size: 5rem;
+  width: 100vw;
+  text-align: center;
+  margin: 0;
 }
 
+li {
+  list-style: none;
+}
 
-li { list-style: none; }
-
-li:hover { cursor: pointer; }
+li:hover {
+  cursor: pointer;
+}
 
 #feature {
-    padding: 2rem 10vw;
-    text-align: justify;
+  padding: 2rem 10vw;
+  text-align: justify;
 }
 
-h3 { 
-    font-family: 'Londrina Sketch', cursive;
-    font-size: 3rem;
-    width: 100vw;
-    text-align: center;
+h3 {
+  font-family: "Londrina Sketch", cursive;
+  font-size: 3rem;
+  text-align: center;
+  margin: 0;
 }
