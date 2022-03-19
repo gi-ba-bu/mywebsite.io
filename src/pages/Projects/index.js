@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { Scrollbars } from 'react-custom-scrollbars-2';
 import { Switch, Route} from 'react-router-dom';
 import { Card } from '../../component'
 import './style.css'
@@ -18,6 +18,13 @@ const Projects = () => {
   // // }
  
   return(
+    <Scrollbars style={{ width: "100vw", height: "100vh" }}
+// This will activate auto hide
+autoHide
+// Hide delay in ms
+autoHideTimeout={1000}
+// Duration for hide animation in ms.
+autoHideDuration={200}>
     <div >
       {/* <h1>Our favourite Songs</h1> */}
 
@@ -60,6 +67,7 @@ const Projects = () => {
 
 
     </div>
+    </Scrollbars>
   );
 
 };
