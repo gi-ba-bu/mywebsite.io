@@ -1,18 +1,42 @@
-div.spacing-a-bit-top{
-    height: 61px;
-    margin: 0;
-    border:0;
-    padding:0;
+div.spacing-a-bit-top {
+  height: 61px;
+  margin: 0;
+  border: 0;
+  padding: 0;
 }
-div.spacing-a-bit-bottom{
-    height: 122px;
-    margin: 0;
-    border:0;
-    padding:0;
+div.spacing-a-bit-bottom {
+  height: 122px;
+  margin: 0;
+  border: 0;
+  padding: 0;
 }
 
-p.title-projects{
-    font-size: 20px;
-    font-weight: 700;
-    text-align: center;
+p.title-projects {
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+}
+
+/* Card container */
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0% 10% 0% 10%;
+  position: relative;
+  justify-content: center;
+}
+
+/* On screens that are 1200px or less*/
+@media screen and (max-width: 1200px) {
+  .cards-container {
+    margin: 5%;
+  }
+}
+
+/* On screens that are 600px or less*/
+@media screen and (max-width: 600px) {
+  .cards-container {
+    margin: 0;
+  }
 }
