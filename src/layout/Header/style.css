@@ -1,30 +1,31 @@
 nav {
-    width: 100vw;
-    background-color: black;
-    padding: 0;
-    margin: 0;
-    border: 0;
-    display: flex;
-    justify-content: space-around;
-    color: gold;
-    position:fixed;
-    top:0;
-    z-index: 20;
+  width: 100vw;
+  background-color: black;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  display: flex;
+  justify-content: space-around;
+  color: gold;
+  position: fixed;
+  top: 0;
+  z-index: 20;
 }
 
-a { width: 50vw;
-    padding: 15px;
-    text-align: center;
-    text-decoration: none;
-    color: gold;
+a {
+  width: 50vw;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  color: gold;
 }
 
 a:hover {
-    font-weight: bolder;
-    background-color: grey;
+  font-weight: bolder;
+  background-color: grey;
 }
 
 .current {
-    font-weight: bolder;
-    background-color: grey;
+  font-weight: bolder;
+  background-color: grey;
 }

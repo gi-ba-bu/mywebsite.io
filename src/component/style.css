@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@100;300;400&display=swap");
+/* font-family: 'Alegreya Sans SC', sans-serif; */
+.card-container {
+  display: inline-block;
+  width: 250px;
+  min-height: 200px;
+  margin: 10px;
+  background-color: #fff;
+}
+
+/* .card-container:hover {
+  cursor: pointer;
+} */
+
+img {
+  width: 250px;
+}
+
+.card-text {
+  padding: 0 5px 0 5px;
+}
+
+#card-git-link {
+  font-family: "Alegreya Sans SC", sans-serif;
+  color: firebrick;
+  margin: 0;
+}
+
+#card-git-link:hover {
+  cursor: pointer;
+}
+
+.arrow-a {
+  padding: 0;
+  font-size: 20px;
+  font-weight: bolder;
+  background-color: #fff;
+  color: firebrick;
+}
+
+.arrow-a:hover {
+  background-color: #fff;
+}

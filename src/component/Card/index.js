@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import './style.css'
+import '../style.css'
 
 const Card = (prop) => {
     
