@@ -12,32 +12,49 @@
   cursor: pointer;
 } */
 
-img {
+.card-image {
   width: 250px;
+  cursor: pointer;
 }
 
 .card-text {
-  padding: 0 5px 0 5px;
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+  font-weight: 400;
 }
 
 #card-git-link {
   font-family: "Alegreya Sans SC", sans-serif;
   color: firebrick;
+  display: flex;
   margin: 0;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
 }
 
-#card-git-link:hover {
+.arrow-a:hover {
   cursor: pointer;
 }
 
 .arrow-a {
   padding: 0;
   font-size: 20px;
-  font-weight: bolder;
+  font-weight: 600;
   background-color: #fff;
   color: firebrick;
+  text-align: left;
 }
 
 .arrow-a:hover {
   background-color: #fff;
+}
+
+.add-padd-link {
+  white-space: nowrap;
+}
+
+.sub-title-proj {
+  text-align: center;
 }

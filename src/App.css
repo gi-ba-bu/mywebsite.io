@@ -34,7 +34,7 @@ li:hover {
 }
 
 h3 {
-  font-family: "Londrina Sketch", cursive;
+  font-family: var(--font-family);
   font-size: 3rem;
   text-align: center;
 }

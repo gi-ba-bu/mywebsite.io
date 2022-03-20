@@ -25,6 +25,7 @@ p.title-projects {
   margin: 0% 10% 0% 10%;
   position: relative;
   justify-content: center;
+  column-gap: 1.5rem;
 }
 
 /* On screens that are 1200px or less*/

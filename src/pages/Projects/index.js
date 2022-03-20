@@ -1,7 +1,7 @@
 import React from 'react';
 import { Scrollbars } from 'react-custom-scrollbars-2';
 import { Switch, Route} from 'react-router-dom';
-import { Card100, Card } from '../../component'
+import { Card100, Card99 } from '../../component'
 import './style.css'
 
 const Projects = () => {
@@ -42,15 +42,11 @@ autoHideDuration={200}>
             <Route exact path={"/projects"}>
             <div>
             <div className='spacing-a-bit-top' ></div>
-            <h3 >Work in progress. Come back soon.</h3>
+            <h3 >A selection of my most recent projects.</h3>
+            <p className='sub-title-proj'>For some of my apps, the database is hosted on Heroku. Please be patient for the database to wake up.</p>    
             <div className='cards-container'>
             <Card100 />
-            <Card />
-            <Card />
-            <Card />
-            <Card />
-            <Card />
-            <Card />
+            <Card99 />
             </div>
             <div className='spacing-a-bit-bottom' ></div>
             </div>
