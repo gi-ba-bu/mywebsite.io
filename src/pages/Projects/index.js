@@ -1,7 +1,7 @@
 import React from 'react';
 import { Scrollbars } from 'react-custom-scrollbars-2';
 import { Switch, Route} from 'react-router-dom';
-import { Card101, Card100, Card99, Card98 } from '../../component'
+import { Card101, Card100, Card99, Card98, Card95 } from '../../component'
 import './style.css'
 
 const Projects = () => {
@@ -49,6 +49,7 @@ autoHideDuration={200}>
             <Card100 />
             <Card99 />
             <Card98 />
+            <Card95 />
             </div>
             <div className='spacing-a-bit-bottom' ></div>
             </div>
