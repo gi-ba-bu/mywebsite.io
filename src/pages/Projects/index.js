@@ -1,7 +1,7 @@
 import React from 'react';
 import { Scrollbars } from 'react-custom-scrollbars-2';
 import { Switch, Route} from 'react-router-dom';
-import { Card101, Card100, Card99, Card98, Card95 } from '../../component'
+import { Card101, Card100, Card99, Card98, Card97, Card96, Card95 } from '../../component'
 import './style.css'
 
 const Projects = () => {
@@ -42,14 +42,19 @@ autoHideDuration={200}>
             <Route exact path={"/projects"}>
             <div>
             <div className='spacing-a-bit-top' ></div>
-            <h3 >A selection of my most recent projects.</h3>
-            <p className='sub-title-proj'>Web development. </p>    
+            <h3 >A collection of some of my recent projects.</h3>
+            <h4 className='sub-title-proj'>Web development. </h4>    
             <div className='cards-container'>
             <Card101 />
             <Card100 />
             <Card99 />
             <Card98 />
-            <p className='sub-title-proj'>Data, data science and machine learning projects.</p> 
+            </div>
+            
+            <h4 className='sub-title-proj'>Data-oriented, data science and machine learning projects.</h4> 
+            <div className='cards-container'>
+            <Card97 />
+            <Card96 />
             <Card95 />
             </div>
             <div className='spacing-a-bit-bottom' ></div>
