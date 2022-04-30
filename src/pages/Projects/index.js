@@ -43,12 +43,13 @@ autoHideDuration={200}>
             <div>
             <div className='spacing-a-bit-top' ></div>
             <h3 >A selection of my most recent projects.</h3>
-            <p className='sub-title-proj'>For some of my apps, the database is hosted on Heroku. Please be patient for the database to wake up.</p>    
+            <p className='sub-title-proj'>Web development. </p>    
             <div className='cards-container'>
             <Card101 />
             <Card100 />
             <Card99 />
             <Card98 />
+            <p className='sub-title-proj'>Data, data science and machine learning projects.</p> 
             <Card95 />
             </div>
             <div className='spacing-a-bit-bottom' ></div>

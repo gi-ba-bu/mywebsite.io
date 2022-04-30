@@ -9,7 +9,7 @@ const Header = () => {
         <nav>
             <NavLink exact to="/" className="navlink" activeClassName="current">About</NavLink>
             {/* <NavLink to="/about" activeClassName="current">About</NavLink> */}
-            <NavLink to="/projects" className="navlink" activeClassName="current">Projects +</NavLink>
+            <NavLink to="/projects" className="navlink" activeClassName="current">Projects</NavLink>
             {/* <BackButton /> */}
         </nav>
     );
