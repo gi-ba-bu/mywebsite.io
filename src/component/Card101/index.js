@@ -18,7 +18,7 @@ const Card101 = (prop) => {
     return (
         <>
         <div className='card-container'>
-        <img className='card-image' onClick={handleClick} src="../../images/anonymous-journal.png" alt="react" />      
+        <img className='card-image' onClick={handleClick} src="../../images/flourish.png" alt="react" />      
         <p className='card-text'>
         An app that aims to reduce food waste by letting users share information about reduced food items. Made using Flask, PostgreSQL and React.  
         </p>
