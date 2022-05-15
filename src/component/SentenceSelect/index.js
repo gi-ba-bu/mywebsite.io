@@ -29,10 +29,10 @@ const SentenceSelect = (prop) => {
     
     return (
         <>         
-            <p> {parOne} </p> 
-            <p> {parTwo} </p>
-            <p> {parThree} </p>
-            <p> {parFour} </p> 
+            <p id='firstsentence'> {parOne} </p> 
+            <p id='secondsentence'> {parTwo} </p>
+            <p id='thirdsentence'> {parThree} </p>
+            <p id='fourthsentence'> {parFour} </p> 
         </>
     );
 }
