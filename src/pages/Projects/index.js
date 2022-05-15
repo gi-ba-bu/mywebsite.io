@@ -16,6 +16,17 @@ const Projects = () => {
   // //   console.log(id);
   // //   return <h1>Now showing News {id}</h1>;
   // // }
+
+  const ColoredLine = () => (
+    <hr
+        style={{
+            color: 'grey',
+            backgroundColor: 'grey',
+            height: 2 ,
+            width: '80%' ,
+        }}
+    />
+  );
  
   return(
     <Scrollbars style={{ width: "100vw", height: "100vh" }}
@@ -42,7 +53,8 @@ autoHideDuration={200}>
             <Route exact path={"/projects"}>
             <div>
             <div className='spacing-a-bit-top' ></div>
-            <h3 >A collection of some of my recent projects.</h3>
+            <h3 > Some of my most recent projects.</h3>
+            <ColoredLine />
             <h4 className='sub-title-proj'>Web development and testing. </h4>    
             <div className='cards-container'>
             <Card103 />
