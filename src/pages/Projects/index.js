@@ -43,7 +43,7 @@ autoHideDuration={200}>
             <div>
             <div className='spacing-a-bit-top' ></div>
             <h3 >A collection of some of my recent projects.</h3>
-            <h4 className='sub-title-proj'>Web development. </h4>    
+            <h4 className='sub-title-proj'>Web development and testing. </h4>    
             <div className='cards-container'>
             <Card101 />
             <Card100 />
