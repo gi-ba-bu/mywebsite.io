@@ -10,6 +10,10 @@ const Card102 = (prop) => {
     const handlegithubClick = () => {
         window.open("https://github.com/gi-ba-bu/python-n-gram-ratio");
       };
+
+    const handleStackOClick = () => {
+      window.open("https://stackoverflow.com/a/72281801/19139955");
+    };
     
     return (
         <>
@@ -23,6 +27,9 @@ const Card102 = (prop) => {
         </p>
         <p className='card-text' id='card-git-link'>
         <span  className='add-padd-link'>Github repository</span> <a className='arrow-a' onClick={handlegithubClick}> &#8594; </a>
+        </p>
+        <p className='card-text' id='card-git-link'>
+        <span  className='add-padd-link'>On stackoverflow (by me)</span> <a className='arrow-a' onClick={handleStackOClick}> &#8594; </a>
         </p>
         </div>
         </>
